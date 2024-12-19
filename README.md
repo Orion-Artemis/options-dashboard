@@ -1,8 +1,11 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# OptionsSIM
 
-Currently, two official plugins are available:
+OptionsSIM is a dynamic and user-friendly platform designed for options trading enthusiasts and investors. With interactive tools, real-time data, and detailed evaluations, OptionsSIM empowers users to analyze and validate options contracts effectively. Whether you're a beginner exploring options trading or a seasoned trader refining your strategy, OptionsSIM provides valuable insights, making options trading more accessible and informed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Check out the LIVE Website!
+OptionsSIM : https://options-dashboard.vercel.app/
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
