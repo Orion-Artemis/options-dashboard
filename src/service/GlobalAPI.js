@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Base URL for the API
 const apiClient = axios.create({
-  baseURL: 'http://127.0.0.1:8000/api/',
+  baseURL: "https://options-platform.onrender.com/api/",
   headers: {
     'Content-Type': 'application/json',
   },
@@ -23,7 +23,7 @@ export const fetchOptionsData = async (ticker) => {
 // Evaluate if the option is good
 export const evaluateOption = async (optionData) => {
   try {
-    const response = await apiClient.post('/evaluate/', optionData);
+    const response = await apiClient.post('evaluate/', optionData);
     return response.data;
   } catch (error) {
     console.error('Error evaluating option:', error);

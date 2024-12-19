@@ -38,7 +38,11 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ClerkProvider publishableKey={publishableKey} afterSignOutUrl={'/'}>
+    <ClerkProvider publishableKey={publishableKey} afterSignOutUrl={'/'} appearance={{
+      layout: {
+        unsafe_disableDevelopmentModeWarnings: true
+      }
+    }}>
       <RouterProvider router={router} />
     </ClerkProvider>
   </StrictMode>,
